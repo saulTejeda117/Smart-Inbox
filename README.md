@@ -1,20 +1,22 @@
 # Smart-Inbox
-An automatic email organization system based on machine learning techniques, developed with Python. That makes this process easier and more efficient
-
-
-
+<p align='justify'>
+The Smart-Inbox GitHub repository is dedicated to spam email detection and presents a comprehensive comparison of various machine learning models and techniques. The repository focuses on classifying emails into two categories: spam and not_spam. The goal is to provide an efficient and accurate solution for filtering unwanted email messages.
+The repository includes implementations and evaluations of several machine learning models commonly used for spam detection. The models covered in the comparison are:
+</p>
 
 <div align='center'>
-
-| Name                     | Description                                                                                                    |
-|--------------------------|----------------------------------------------------------------------------------------------------------------|
-| School/Education         | Emails related to educational institutions, classes, assignments, and academic activities.                     |
-| Work                     | Emails related to work, including project updates, meeting schedules, and work-related discussions.            |
-| Shopping                 | Emails related to online shopping, order confirmations, shipping updates, and product recommendations.         |
-| Social Media             | Notifications and updates from social media platforms, including friend requests, likes, and comments.         |
-| Advertising              | Promotional emails and advertisements from companies and brands.                                               |
-| Personal                 | Personal emails, including conversations with family and friends, personal updates, and non-work-related topics.|
-| Notifications and Alerts | Important notifications and alerts, such as privacy policy changes, security updates, and service terms updates.|
-| Events and Activities    | Emails related to events, conference invitations, meetings, social gatherings, and community activities.        |
-
+  
+| Model               | Description                                                                                                     |
+|---------------------|-----------------------------------------------------------------------------------------------------------------|
+| Naive Bayes         | A probabilistic classifier that applies Bayes' theorem with strong independence assumptions between features.     |
+| Logistic Regression | A linear classifier that uses the logistic function to estimate the probability of the target class.             |
+| Support Vector Machines (SVM) | A binary classifier that separates data points by creating an optimal hyperplane.                       |
+| Random Forest       | An ensemble classifier that combines multiple decision trees to make predictions.                                |
+| Gradient Boosting   | A boosting technique that sequentially builds weak learners to create a strong learner.                          |
+| Neural Networks     | A deep learning approach that consists of multiple layers of interconnected nodes to learn complex patterns.    |
+  
 </div>
+
+<p align='justify'>
+Each model's performance is evaluated using appropriate metrics, such as accuracy, precision, recall, and F1 score, to assess their effectiveness in spam email classification. The repository provides detailed documentation and code examples for each model, making it easy to replicate and compare the results.
+</p>
